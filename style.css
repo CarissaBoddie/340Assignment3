@@ -1,0 +1,89 @@
+
+img {
+    width: 200px;
+    height:200px;
+}
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lucida Handwriting', 'Brush Script MT', cursive;
+    color: #000; 
+    background-color: #f0eae7; 
+    text-align: center; 
+}
+
+header {
+    background-color: #fff; 
+    padding: 20px; 
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+.logo {
+    flex-grow: 1; 
+    text-align: center; 
+}
+
+.logo img {
+    width: 250px; 
+    height: auto; 
+}
+
+.contact img {
+    width: 300px; 
+    height: auto; 
+}
+
+.header-text {
+    flex-grow: 1; 
+    text-align: center; 
+}
+
+nav {
+    margin-top: 20px; 
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000; 
+    font-weight: bold;
+    font-size: 16px;
+}
+
+main {
+    padding: 20px; 
+}
+
+.welcome-section {
+    margin-top: 20px; 
+}
+
+.image-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px; 
+}
+
+.image-container img {
+    max-width: 30%; 
+    height: auto;
+}
